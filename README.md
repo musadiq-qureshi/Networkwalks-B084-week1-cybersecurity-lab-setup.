@@ -135,7 +135,7 @@ A **NAT Network** was chosen because all VMs attached to the same NAT Network ca
 <!-- Replace images/02-vm-specifications.png with your image link  -->
 <!-- ============================================================ -->
 <p align="center">
-  <img src="images/02-vm-specifications.png" alt="VirtualBox Manager showing the Kali Linux VM specifications" width="900"><br>
+  <img src="[images/02-vm-specifications.png](https://github.com/musadiq-qureshi/Networkwalks-B084-week1-cybersecurity-lab-setup./blob/main/HOME.jpg?raw=true)" alt="VirtualBox Manager showing the Kali Linux VM specifications" width="900"><br>
   <sub><b>Figure 1.</b> VirtualBox Manager – Kali Linux VM specifications (system, storage and network).</sub>
 </p>
 
