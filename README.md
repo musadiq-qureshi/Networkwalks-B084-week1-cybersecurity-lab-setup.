@@ -6,9 +6,9 @@
 
 **NetworkWalks Cybersecurity Internship · Week 1 · Project Module 1 (WK1-PM1)**
 
-Built and documented by **MUSADIQ MEHMOOD QURESHI**
+Built and documented by **Musadiq Mehmood Qureshi**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Musadiq%20Qureshi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/musadiq-qureshi-32271936a/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Musadiq%20Qureshi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/musadiq-qureshi-32271936a)
 
 </div>
 
@@ -142,6 +142,10 @@ A **NAT Network** was chosen because all VMs attached to the same NAT Network ca
 | 🖱️ Drag and Drop | Bidirectional |
 | 📂 Shared Folder | Host `Downloads` folder (auto-mount, permanent) |
 
+<!-- ================================================================ -->
+<!-- 📸 IMAGE 1 of 5 — PASTE YOUR IMAGE LINK HERE (inside src="...")   -->
+<!-- Current path: images/02-vm-specifications.png                     -->
+<!-- ================================================================ -->
 <p align="center">
   <img src="images/02-vm-specifications.png" alt="VirtualBox Manager showing the Kali Linux VM specifications: system, storage and network" width="900"><br>
   <sub><b>Figure 1.</b> VirtualBox Manager – Kali Linux VM specifications (system, storage and network).</sub>
@@ -188,6 +192,10 @@ A dedicated NAT Network was created in VirtualBox:
 | Enable DHCP | ✔ Enabled |
 | Enable IPv6 | ✘ Disabled |
 
+<!-- ================================================================ -->
+<!-- 📸 IMAGE 2 of 5 — PASTE YOUR IMAGE LINK HERE (inside src="...")   -->
+<!-- Current path: images/03-nat-network.png                           -->
+<!-- ================================================================ -->
 <p align="center">
   <img src="images/03-nat-network.png" alt="VirtualBox NAT Networks tab showing NatNetwork 10.0.0.0/24 with DHCP enabled" width="900"><br>
   <sub><b>Figure 2.</b> NatNetwork created with prefix 10.0.0.0/24 and DHCP enabled.</sub>
@@ -214,6 +222,10 @@ The pre-built Kali Linux VirtualBox image was downloaded from the official Kali 
 | Promiscuous Mode | Allow All |
 | Virtual Cable Connected | ✔ |
 
+<!-- ================================================================ -->
+<!-- 📸 IMAGE 3 of 5 — PASTE YOUR IMAGE LINK HERE (inside src="...")   -->
+<!-- Current path: images/04-vm-network-adapter.png                    -->
+<!-- ================================================================ -->
 <p align="center">
   <img src="images/04-vm-network-adapter.png" alt="Kali VM settings showing Adapter 1 attached to NAT Network NatNetwork" width="900"><br>
   <sub><b>Figure 3.</b> Kali VM → Settings → Network: Adapter 1 attached to <code>NatNetwork</code>.</sub>
@@ -286,6 +298,10 @@ ping -c 4 8.8.8.8         # internet reachable (IP level)
 ping -c 4 google.com      # DNS resolution works
 ```
 
+<!-- ================================================================ -->
+<!-- 📸 IMAGE 4 of 5 — PASTE YOUR IMAGE LINK HERE (inside src="...")   -->
+<!-- Current path: images/01-kali-desktop.jpg                          -->
+<!-- ================================================================ -->
 <p align="center">
   <img src="images/01-kali-desktop.jpg" alt="Kali Linux 2026.3 desktop running inside VirtualBox" width="900"><br>
   <sub><b>Figure 4.</b> Kali Linux 2026.3 desktop running inside VirtualBox.</sub>
@@ -301,6 +317,10 @@ With the lab configured and working, the VM was powered off and a clean snapshot
 
 If a later experiment breaks the system, the VM can be restored to this clean state in seconds.
 
+<!-- ================================================================ -->
+<!-- 📸 IMAGE 5 of 5 — PASTE YOUR IMAGE LINK HERE (inside src="...")   -->
+<!-- Current path: images/05-vm-snapshot.png                           -->
+<!-- ================================================================ -->
 <p align="center">
   <img src="images/05-vm-snapshot.png" alt="VirtualBox Snapshots tab showing the snapshot My Fresh Kali Linux" width="900"><br>
   <sub><b>Figure 5.</b> Snapshot <code>My Fresh Kali Linux</code> created for recovery.</sub>
@@ -372,12 +392,12 @@ The lab is intended for **authorized** learning activities such as network recon
 
 ## 👤 Author
 
-**MUSADIQ MEHMOOD QURESHI**
+**Musadiq Mehmood Qureshi**
 NetworkWalks Cybersecurity Internship – Week 1, Project Module 1 (WK1-PM1)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Musadiq%20Qureshi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/musadiq-qureshi-32271936a/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Musadiq%20Qureshi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/musadiq-qureshi-32271936a)
 
-🔗 **LinkedIn:** [Musadiq Qureshi](https://www.linkedin.com/in/musadiq-qureshi-32271936a/)
+🔗 **LinkedIn:** [www.linkedin.com/in/musadiq-qureshi-32271936a](https://www.linkedin.com/in/musadiq-qureshi-32271936a)
 
 ---
 
@@ -389,11 +409,6 @@ NetworkWalks Cybersecurity Internship – Week 1, Project Module 1 (WK1-PM1)
 
 ---
 
-<div align="center">
-
-⭐ If you found this documentation useful, feel free to star the repository.
-
-</div>
 <div align="center">
 
 ⭐ If you found this documentation useful, feel free to star the repository.
