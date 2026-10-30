@@ -11,7 +11,7 @@ Built and documented by **Musadiq Mehmood Qureshi**
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
+  <img src="[https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />](https://github.com/musadiq-qureshi/Networkwalks-B084-week1-cybersecurity-lab-setup./blob/main/HOME.jpg?raw=true)
   <img src="https://img.shields.io/badge/VirtualBox-v7.2-0070C0?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/Kali%20Linux-v2026.3-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
   <img src="https://img.shields.io/badge/Skill-Linux-404040?style=flat-square&labelColor=C00000" />
