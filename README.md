@@ -302,11 +302,9 @@ ping -c 4 google.com      # DNS resolution works
 <!-- 📸 IMAGE 4 of 5 — PASTE YOUR IMAGE LINK HERE (inside src="...")   -->
 <!-- Current path: images/01-kali-desktop.jpg                          -->
 <!-- ================================================================ -->
-<p align="center">
- <img src="https://raw.githubusercontent.com/musadiq-qureshi/Networkwalks-B084-week1-cybersecurity-lab-setup/main/images/HOME.jpg" alt="Kali Linux Desktop" width="850">
-  <sub><b>Figure 4.</b> Kali Linux 2026.3 desktop running inside VirtualBox.</sub>
-</p>
+![Kali Linux Desktop](https://raw.githubusercontent.com/musadiq-qureshi/Networkwalks-B084-week1-cybersecurity-lab-setup/main/images/HOME.jpg)
 
+**Figure 4.** Kali Linux 2026.3 desktop running inside VirtualBox.
 ---
 
 ### Step 6 – Take a snapshot of the VM
