@@ -147,7 +147,7 @@ A **NAT Network** was chosen because all VMs attached to the same NAT Network ca
 <!-- Current path: images/02-vm-specifications.png                     -->
 <!-- ================================================================ -->
 <p align="center">
-  <img src="images/02-vm-specifications.png" alt="VirtualBox Manager showing the Kali Linux VM specifications: system, storage and network" width="900"><br>
+  <img src="LAB-SPECS.png" alt="VirtualBox Manager showing the Kali Linux VM specifications: system, storage and network" width="900"><br>
   <sub><b>Figure 1.</b> VirtualBox Manager – Kali Linux VM specifications (system, storage and network).</sub>
 </p>
 
@@ -197,7 +197,7 @@ A dedicated NAT Network was created in VirtualBox:
 <!-- Current path: images/03-nat-network.png                           -->
 <!-- ================================================================ -->
 <p align="center">
-  <img src="images/03-nat-network.png" alt="VirtualBox NAT Networks tab showing NatNetwork 10.0.0.0/24 with DHCP enabled" width="900"><br>
+  <img src="NAT-NETWORK.png" alt="VirtualBox NAT Networks tab showing NatNetwork 10.0.0.0/24 with DHCP enabled" width="900"><br>
   <sub><b>Figure 2.</b> NatNetwork created with prefix 10.0.0.0/24 and DHCP enabled.</sub>
 </p>
 
@@ -227,7 +227,7 @@ The pre-built Kali Linux VirtualBox image was downloaded from the official Kali 
 <!-- Current path: images/04-vm-network-adapter.png                    -->
 <!-- ================================================================ -->
 <p align="center">
-  <img src="images/04-vm-network-adapter.png" alt="Kali VM settings showing Adapter 1 attached to NAT Network NatNetwork" width="900"><br>
+  <img src="NETWORK.png" alt="Kali VM settings showing Adapter 1 attached to NAT Network NatNetwork" width="900"><br>
   <sub><b>Figure 3.</b> Kali VM → Settings → Network: Adapter 1 attached to <code>NatNetwork</code>.</sub>
 </p>
 
@@ -302,7 +302,10 @@ ping -c 4 google.com      # DNS resolution works
 <!-- 📸 IMAGE 4 of 5 — PASTE YOUR IMAGE LINK HERE (inside src="...")   -->
 <!-- Current path: images/01-kali-desktop.jpg                          -->
 <!-- ================================================================ -->
-![Kali Linux Desktop](https://raw.githubusercontent.com/musadiq-qureshi/Networkwalks-B084-week1-cybersecurity-lab-setup/main/images/HOME.jpg)
+<p align="center">
+  <img src="HOME.jpg" alt="Kali VM settings showing Adapter 1 attached to NAT Network NatNetwork" width="900"><br>
+  <sub><b>Figure 3.</b> Kali VM → Settings → Network: Adapter 1 attached to <code>NatNetwork</code>.</sub>
+</p>
 
 **Figure 4.** Kali Linux 2026.3 desktop running inside VirtualBox.
 ---
