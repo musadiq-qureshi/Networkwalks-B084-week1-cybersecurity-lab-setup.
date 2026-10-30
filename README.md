@@ -320,7 +320,7 @@ If a later experiment breaks the system, the VM can be restored to this clean st
 <!-- Current path: images/05-vm-snapshot.png                           -->
 <!-- ================================================================ -->
 <p align="center">
-  <img src="images/05-vm-snapshot.png" alt="VirtualBox Snapshots tab showing the snapshot My Fresh Kali Linux" width="900"><br>
+  <img src="SNAPSHOT.png" alt="VirtualBox Snapshots tab showing the snapshot My Fresh Kali Linux" width="900"><br>
   <sub><b>Figure 5.</b> Snapshot <code>My Fresh Kali Linux</code> created for recovery.</sub>
 </p>
 
