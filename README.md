@@ -135,7 +135,7 @@ A **NAT Network** was chosen because all VMs attached to the same NAT Network ca
 <!-- Replace images/02-vm-specifications.png with your image link  -->
 <!-- ============================================================ -->
 <p align="center">
-  <img src="[images/02-vm-specifications.png](https://github.com/musadiq-qureshi/Networkwalks-B084-week1-cybersecurity-lab-setup./blob/main/HOME.jpg?raw=true)" alt="VirtualBox Manager showing the Kali Linux VM specifications" width="900"><br>
+  <img src="images/02-vm-specifications.png" alt="VirtualBox Manager showing the Kali Linux VM specifications" width="900"><br>
   <sub><b>Figure 1.</b> VirtualBox Manager – Kali Linux VM specifications (system, storage and network).</sub>
 </p>
 
@@ -288,10 +288,10 @@ ping -c 4 google.com      # DNS resolution works
 
 <!-- ============================================================ -->
 <!-- 📸 PICTURE 4 of 5 — PUT YOUR IMAGE LINK HERE                  -->
-<!-- Replace images/01-kali-desktop.png with your image link       -->
+<!-- Replace images/01-kali-desktop.jpg with your image link       -->
 <!-- ============================================================ -->
 <p align="center">
-  <img src="images/01-kali-desktop.png" alt="Kali Linux desktop running inside VirtualBox" width="900"><br>
+  <img src="images/01-kali-desktop.jpg" alt="Kali Linux desktop running inside VirtualBox" width="900"><br>
   <sub><b>Figure 4.</b> Kali Linux 2026.3 desktop after the first successful boot.</sub>
 </p>
 
@@ -361,7 +361,7 @@ cybersecurity-lab-setup/
 ├── docs/
 │   └── WK1-PM1_Lab_Setup_Task.pdf     # Original task brief – Networkwalks Academy
 └── images/
-    ├── 01-kali-desktop.png            # Kali Linux desktop
+    ├── 01-kali-desktop.jpg            # Kali Linux desktop
     ├── 02-vm-specifications.png       # VM specifications in VirtualBox
     ├── 03-nat-network.png             # NatNetwork 10.0.0.0/24
     ├── 04-vm-network-adapter.png      # VM network adapter settings
@@ -392,6 +392,12 @@ Networkwalks Cybersecurity Internship – Week 1, Project Module 1 (WK1-PM1)
 - **Oracle VirtualBox** and **Kali Linux (Offensive Security)** – the tools behind this lab
 
 ---
+
+<div align="center">
+
+⭐ If you found this documentation useful, feel free to star the repository.
+
+</div>
 
 <div align="center">
 
