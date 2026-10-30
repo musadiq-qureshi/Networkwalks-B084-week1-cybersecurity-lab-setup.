@@ -310,7 +310,7 @@ If a later experiment breaks the system, the VM can be restored to this clean st
 <!-- Replace images/05-vm-snapshot.png with your image link        -->
 <!-- ============================================================ -->
 <p align="center">
-  <img src="images/05-vm-snapshot.png" alt="VirtualBox Snapshots tab showing the snapshot My Fresh Kali Linux" width="900"><br>
+  <img src="[images/05-vm-snapshot.png](https://github.com/musadiq-qureshi/Networkwalks-B084-week1-cybersecurity-lab-setup./blob/a236c9571b618a40535e13e7398f64c9fdb7a53c/HOME.jpg)" alt="VirtualBox Snapshots tab showing the snapshot My Fresh Kali Linux" width="900"><br>
   <sub><b>Figure 5.</b> Snapshot <code>My Fresh Kali Linux</code> created for recovery.</sub>
 </p>
 
