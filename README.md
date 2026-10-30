@@ -304,10 +304,10 @@ ping -c 4 google.com      # DNS resolution works
 <!-- ================================================================ -->
 <p align="center">
   <img src="HOME.jpg" alt="Kali VM settings showing Adapter 1 attached to NAT Network NatNetwork" width="900"><br>
-  <sub><b>Figure 3.</b> Kali VM → Settings → Network: Adapter 1 attached to <code>NatNetwork</code>.</sub>
+  <sub><b>Figure 4.</b> Kali Linux 2026.3 desktop running inside VirtualBox <code</code>.</sub>
 </p>
 
-**Figure 4.** Kali Linux 2026.3 desktop running inside VirtualBox.
+
 ---
 
 ### Step 6 – Take a snapshot of the VM
