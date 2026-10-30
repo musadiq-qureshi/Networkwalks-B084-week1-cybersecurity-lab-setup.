@@ -2,28 +2,27 @@
 
 # 🔐 Cybersecurity Lab Environment Setup
 
-### VirtualBox + Kali Linux on an isolated NAT Network (10.0.0.0/24)
+### VirtualBox + Kali Linux on an Isolated NAT Network (10.0.0.0/24)
 
-**Networkwalks Cybersecurity Internship · Week 1 · Project Module 1 (WK1-PM1)**
+**NetworkWalks Cybersecurity Internship · Week 1 · Project Module 1 (WK1-PM1)**
 
-Built and documented by **Musadiq Mehmood Qureshi**
+Built and documented by **MUSADIQ MEHMOOD QURESHI**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Musadiq%20Qureshi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/musadiq-qureshi-32271936a)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Musadiq%20Qureshi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/musadiq-qureshi-32271936a/)
 
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/VirtualBox-v7.2-0070C0?style=flat-square&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Kali%20Linux-v2026.3-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Skill-Linux-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/Network-10.0.0.0%2F24-238F89?style=flat-square&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Penetration%20Testing-C00000?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Skill-Virtualization-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/Instructor-Waqas%20Karim%20(CCIE)-C00000?style=flat-square" />
+  <a href="https://www.networkwalks.com"><img src="https://img.shields.io/badge/Cybersecurity-Internship%20Project-C00000?style=flat-square&labelColor=000000" alt="Cybersecurity" /></a>
+  <a href="https://www.kali.org"><img src="https://img.shields.io/badge/Kali%20Linux-2026.3-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" alt="Kali Linux" /></a>
+  <a href="https://www.virtualbox.org"><img src="https://img.shields.io/badge/VirtualBox-7.2-0070C0?style=flat-square&labelColor=000000&logo=virtualbox&logoColor=white" alt="VirtualBox" /></a>
+  <img src="https://img.shields.io/badge/Linux-Administration-404040?style=flat-square&labelColor=C00000&logo=linux&logoColor=white" alt="Linux" />
+  <img src="https://img.shields.io/badge/Networking-10.0.0.0%2F24-238F89?style=flat-square&labelColor=000000" alt="Networking" />
+  <img src="https://img.shields.io/badge/Penetration%20Testing-Lab-C00000?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" alt="Penetration Testing" />
+  <img src="https://img.shields.io/badge/Ethical%20Hacking-Authorized%20Only-E87500?style=flat-square&labelColor=000000" alt="Ethical Hacking" />
+  <a href="https://www.networkwalks.com"><img src="https://img.shields.io/badge/NetworkWalks-Academy-404040?style=flat-square&labelColor=C00000" alt="NetworkWalks" /></a>
+  <img src="https://img.shields.io/badge/GitHub-Documentation-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Instructor-Waqas%20Karim%20(CCIE)-C00000?style=flat-square" alt="Instructor Waqas Karim (CCIE)" />
 </p>
 
 ---
@@ -41,6 +40,7 @@ Built and documented by **Musadiq Mehmood Qureshi**
 9. [Repository Structure](#-repository-structure)
 10. [Legal & Ethical Use](#-legal--ethical-use)
 11. [Author](#-author)
+12. [Acknowledgements](#-acknowledgements)
 
 ---
 
@@ -50,7 +50,14 @@ This project documents the setup of a **virtual cybersecurity and penetration-te
 
 The lab is a controlled environment where security tools, network scanning, reconnaissance, vulnerability assessment and other security-testing activities can be practised safely and repeatedly. It runs on a **private virtual network (NAT Network)**, so additional machines can be added later and used as targets for **authorized** security testing.
 
-📄 The original task brief from Networkwalks Academy is included in this repository: [`docs/WK1-PM1_Lab_Setup_Task.pdf`](docs/WK1-PM1_Lab_Setup_Task.pdf)
+| Item | Details |
+|---|---|
+| 🎓 Internship | NetworkWalks Cybersecurity Internship |
+| 📦 Module | Week 1 – Project Module 1 (WK1-PM1) |
+| 👨‍🏫 Instructor | Waqas Karim (CCIE) |
+| 🧰 Hypervisor | Oracle VirtualBox 7.2 |
+| 🐉 Operating System | Kali Linux 2026.3 |
+| 🌐 Network | NAT Network – `10.0.0.0/24` |
 
 ---
 
@@ -69,7 +76,7 @@ The lab is a controlled environment where security tools, network scanning, reco
 
 ## ✅ Task Requirements Checklist
 
-Requirements taken from the task brief (`WK1-PM1`):
+Requirements taken from the project task brief (`WK1-PM1`):
 
 | # | Requirement | Status | Where |
 |---|-------------|:------:|-------|
@@ -90,18 +97,20 @@ Requirements taken from the task brief (`WK1-PM1`):
 ```mermaid
 flowchart TB
     Internet(("🌍 Internet"))
-    Host["🖥️ Host: Windows PC<br/>Intel Core i5 · 16 GB RAM"]
+    Host["🖥️ Windows 10 Pro Host<br/>Intel Core i5 · 16 GB RAM"]
 
     subgraph VB["🧰 Oracle VirtualBox 7.2"]
-        NAT["📡 NatNetwork — 10.0.0.0/24<br/>Gateway 10.0.0.1 · DHCP enabled"]
-        Kali["🐉 Kali Linux 2026.3 (attacker)<br/>10.0.0.2/24 — static"]
-        Future["🎯 Future target VMs<br/>10.0.0.3 – 10.0.0.99"]
+        GW["🚪 Gateway 10.0.0.1"]
+        NAT["📡 NatNetwork 10.0.0.0/24<br/>DHCP enabled"]
+        Kali["🐉 Kali Linux 2026.3 attacker<br/>10.0.0.2/24 static"]
+        Future["🎯 Future target machines<br/>10.0.0.3 to 10.0.0.99"]
     end
 
-    Host --- VB
-    Kali --- NAT
-    Future -.- NAT
-    NAT --> Internet
+    Internet <--> Host
+    Host --> GW
+    GW --> NAT
+    NAT --> Kali
+    NAT -.-> Future
 ```
 
 A **NAT Network** was chosen because all VMs attached to the same NAT Network can talk to each other *and* still reach the internet through the host. This lets future attacker and target VMs communicate inside the lab while staying isolated from the physical LAN.
@@ -116,7 +125,7 @@ A **NAT Network** was chosen because all VMs attached to the same NAT Network ca
 | 🧠 Host RAM | 16 GB |
 | ⚡ Host Processor | Intel Core i5 |
 | 🧰 Hypervisor | Oracle VirtualBox 7.2 (+ Extension Pack) |
-| 🐉 Security OS | Kali Linux 2026.3 (Rolling) – VirtualBox 64-bit image |
+| 🐉 Security OS | Kali Linux 2026.3 (Rolling) – official VirtualBox 64-bit image |
 | 🧮 Kali vCPUs | 2 |
 | 🧠 Kali RAM | 2048 MB |
 | 💾 Kali Disk | 80.09 GB (VDI, dynamically allocated) |
@@ -129,13 +138,12 @@ A **NAT Network** was chosen because all VMs attached to the same NAT Network ca
 | 🚪 Default Gateway | `10.0.0.1` |
 | 🌍 DNS Server | `8.8.8.8` |
 | 🔮 Future VM Range | `10.0.0.3 – 10.0.0.99` |
+| 📋 Shared Clipboard | Bidirectional |
+| 🖱️ Drag and Drop | Bidirectional |
+| 📂 Shared Folder | Host `Downloads` folder (auto-mount, permanent) |
 
-<!-- ============================================================ -->
-<!-- 📸 PICTURE 1 of 5 — PUT YOUR IMAGE LINK HERE                  -->
-<!-- Replace images/02-vm-specifications.png with your image link  -->
-<!-- ============================================================ -->
 <p align="center">
-  <img src="images/02-vm-specifications.png" alt="VirtualBox Manager showing the Kali Linux VM specifications" width="900"><br>
+  <img src="images/02-vm-specifications.png" alt="VirtualBox Manager showing the Kali Linux VM specifications: system, storage and network" width="900"><br>
   <sub><b>Figure 1.</b> VirtualBox Manager – Kali Linux VM specifications (system, storage and network).</sub>
 </p>
 
@@ -180,10 +188,6 @@ A dedicated NAT Network was created in VirtualBox:
 | Enable DHCP | ✔ Enabled |
 | Enable IPv6 | ✘ Disabled |
 
-<!-- ============================================================ -->
-<!-- 📸 PICTURE 2 of 5 — PUT YOUR IMAGE LINK HERE                  -->
-<!-- Replace images/03-nat-network.png with your image link        -->
-<!-- ============================================================ -->
 <p align="center">
   <img src="images/03-nat-network.png" alt="VirtualBox NAT Networks tab showing NatNetwork 10.0.0.0/24 with DHCP enabled" width="900"><br>
   <sub><b>Figure 2.</b> NatNetwork created with prefix 10.0.0.0/24 and DHCP enabled.</sub>
@@ -210,12 +214,8 @@ The pre-built Kali Linux VirtualBox image was downloaded from the official Kali 
 | Promiscuous Mode | Allow All |
 | Virtual Cable Connected | ✔ |
 
-<!-- ============================================================ -->
-<!-- 📸 PICTURE 3 of 5 — PUT YOUR IMAGE LINK HERE                  -->
-<!-- Replace images/04-vm-network-adapter.png with your image link -->
-<!-- ============================================================ -->
 <p align="center">
-  <img src="images/04-vm-network-adapter.png" alt="Kali VM settings: Adapter 1 attached to NAT Network NatNetwork" width="900"><br>
+  <img src="images/04-vm-network-adapter.png" alt="Kali VM settings showing Adapter 1 attached to NAT Network NatNetwork" width="900"><br>
   <sub><b>Figure 3.</b> Kali VM → Settings → Network: Adapter 1 attached to <code>NatNetwork</code>.</sub>
 </p>
 
@@ -286,13 +286,9 @@ ping -c 4 8.8.8.8         # internet reachable (IP level)
 ping -c 4 google.com      # DNS resolution works
 ```
 
-<!-- ============================================================ -->
-<!-- 📸 PICTURE 4 of 5 — PUT YOUR IMAGE LINK HERE                  -->
-<!-- Replace images/01-kali-desktop.jpg with your image link       -->
-<!-- ============================================================ -->
 <p align="center">
-  <img src=github.com/musadiq-qureshi/Networkwalks-B084-week1-cybersecurity-lab-setup./blob/861d5b12f43088b6e2069b305b8572d07d3767ab/LAB-SPECS.png alt="Kali Linux desktop running inside VirtualBox" width="900"><br>
-  <sub><b>Figure 4.</b> Kali Linux 2026.3 desktop after the first successful boot.</sub>
+  <img src="images/01-kali-desktop.jpg" alt="Kali Linux 2026.3 desktop running inside VirtualBox" width="900"><br>
+  <sub><b>Figure 4.</b> Kali Linux 2026.3 desktop running inside VirtualBox.</sub>
 </p>
 
 ---
@@ -305,12 +301,8 @@ With the lab configured and working, the VM was powered off and a clean snapshot
 
 If a later experiment breaks the system, the VM can be restored to this clean state in seconds.
 
-<!-- ============================================================ -->
-<!-- 📸 PICTURE 5 of 5 — PUT YOUR IMAGE LINK HERE                  -->
-<!-- Replace images/05-vm-snapshot.png with your image link        -->
-<!-- ============================================================ -->
 <p align="center">
-  <img src="[images/05-vm-snapshot.png](https://github.com/musadiq-qureshi/Networkwalks-B084-week1-cybersecurity-lab-setup./blob/a236c9571b618a40535e13e7398f64c9fdb7a53c/HOME.jpg)" alt="VirtualBox Snapshots tab showing the snapshot My Fresh Kali Linux" width="900"><br>
+  <img src="images/05-vm-snapshot.png" alt="VirtualBox Snapshots tab showing the snapshot My Fresh Kali Linux" width="900"><br>
   <sub><b>Figure 5.</b> Snapshot <code>My Fresh Kali Linux</code> created for recovery.</sub>
 </p>
 
@@ -338,9 +330,9 @@ If a later experiment breaks the system, the VM can be restored to this clean st
 
 ## 🔮 Phase 2 – Future Lab Machines
 
-The same NAT Network is ready for additional (optional) target machines. Planned addresses from the task brief:
+The same NAT Network is ready for additional, optional target machines. The virtual machines below are **planned future lab machines**; they are not installed yet.
 
-| VM | Planned IP |
+| Virtual Machine | Planned IP |
 |---|---|
 | 🐉 Kali Linux (attacker) | `10.0.0.2/24` |
 | 🪟 Windows 11 | `10.0.0.11/24` |
@@ -357,39 +349,43 @@ Next steps: install the target VMs, ping-test all machines from each other and t
 
 ```text
 cybersecurity-lab-setup/
-├── README.md                          # Project documentation (this file)
-├── docs/
-│   └── WK1-PM1_Lab_Setup_Task.pdf     # Original task brief – Networkwalks Academy
+│
+├── README.md
+│
 └── images/
-    ├── 01-kali-desktop.jpg            # Kali Linux desktop
-    ├── 02-vm-specifications.png       # VM specifications in VirtualBox
-    ├── 03-nat-network.png             # NatNetwork 10.0.0.0/24
-    ├── 04-vm-network-adapter.png      # VM network adapter settings
-    └── 05-vm-snapshot.png             # Clean VM snapshot
+    ├── 01-kali-desktop.jpg
+    ├── 02-vm-specifications.png
+    ├── 03-nat-network.png
+    ├── 04-vm-network-adapter.png
+    └── 05-vm-snapshot.png
 ```
 
 ---
 
 ## 🚨 Legal & Ethical Use
 
-> ⚠️ **Important:** This laboratory must only be used on systems that **you own or have explicit written permission to test**. Never use the lab or its tools against unauthorized systems, networks or people. Unauthorized access to computer systems is illegal.
+> ⚠️ **Important:** This cybersecurity laboratory must only be used on systems that **I own or where I have explicit written permission** to perform security testing. Never use the lab or its tools against unauthorized systems, networks or people. Unauthorized access to computer systems is illegal.
 
-The lab is intended for learning activities such as network reconnaissance, port scanning, vulnerability assessment, packet analysis, web security testing and security-tool experimentation.
+The lab is intended for **authorized** learning activities such as network reconnaissance, port scanning, vulnerability assessment, packet analysis, web security testing and security-tool experimentation.
 
 ---
 
 ## 👤 Author
 
-**Musadiq Mehmood Qureshi**
-Networkwalks Cybersecurity Internship – Week 1, Project Module 1 (WK1-PM1)
+**MUSADIQ MEHMOOD QURESHI**
+NetworkWalks Cybersecurity Internship – Week 1, Project Module 1 (WK1-PM1)
 
-🔗 **LinkedIn:** [linkedin.com/in/musadiq-qureshi-32271936a](https://www.linkedin.com/in/musadiq-qureshi-32271936a)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Musadiq%20Qureshi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/musadiq-qureshi-32271936a/)
 
-### 🙏 Acknowledgements
+🔗 **LinkedIn:** [Musadiq Qureshi](https://www.linkedin.com/in/musadiq-qureshi-32271936a/)
 
-- **Networkwalks Academy** – course material and task brief ([networkwalks.com](https://www.networkwalks.com))
+---
+
+## 🙏 Acknowledgements
+
+- **NetworkWalks Academy** – course material and project task brief ([networkwalks.com](https://www.networkwalks.com))
 - **Waqas Karim (CCIE)** – instructor
-- **Oracle VirtualBox** and **Kali Linux (Offensive Security)** – the tools behind this lab
+- **Oracle VirtualBox** ([virtualbox.org](https://www.virtualbox.org)) and **Kali Linux** ([kali.org](https://www.kali.org)) – the tools behind this lab
 
 ---
 
@@ -398,7 +394,6 @@ Networkwalks Cybersecurity Internship – Week 1, Project Module 1 (WK1-PM1)
 ⭐ If you found this documentation useful, feel free to star the repository.
 
 </div>
-
 <div align="center">
 
 ⭐ If you found this documentation useful, feel free to star the repository.
