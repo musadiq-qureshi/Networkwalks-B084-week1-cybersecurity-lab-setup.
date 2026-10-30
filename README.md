@@ -303,7 +303,7 @@ ping -c 4 google.com      # DNS resolution works
 <!-- Current path: images/01-kali-desktop.jpg                          -->
 <!-- ================================================================ -->
 <p align="center">
-  <img src="images/01-kali-desktop.jpg" alt="Kali Linux 2026.3 desktop running inside VirtualBox" width="900"><br>
+  <img src= "images/HOME.jpg" alt="Kali Linux 2026.3 desktop running inside VirtualBox" width="900"><br>
   <sub><b>Figure 4.</b> Kali Linux 2026.3 desktop running inside VirtualBox.</sub>
 </p>
 
