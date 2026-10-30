@@ -197,7 +197,7 @@ A dedicated NAT Network was created in VirtualBox:
 <!-- Current path: images/03-nat-network.png                           -->
 <!-- ================================================================ -->
 <p align="center">
-  <img src="NAT-NETWORK.png" alt="VirtualBox NAT Networks tab showing NatNetwork 10.0.0.0/24 with DHCP enabled" width="900"><br>
+  <img src="NAT-NETWORK..png" alt="VirtualBox NAT Networks tab showing NatNetwork 10.0.0.0/24 with DHCP enabled" width="900"><br>
   <sub><b>Figure 2.</b> NatNetwork created with prefix 10.0.0.0/24 and DHCP enabled.</sub>
 </p>
 
