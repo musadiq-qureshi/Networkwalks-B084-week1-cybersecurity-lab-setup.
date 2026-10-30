@@ -291,7 +291,7 @@ ping -c 4 google.com      # DNS resolution works
 <!-- Replace images/01-kali-desktop.jpg with your image link       -->
 <!-- ============================================================ -->
 <p align="center">
-  <img src="images/01-kali-desktop.jpg" alt="Kali Linux desktop running inside VirtualBox" width="900"><br>
+  <img src=github.com/musadiq-qureshi/Networkwalks-B084-week1-cybersecurity-lab-setup./blob/861d5b12f43088b6e2069b305b8572d07d3767ab/LAB-SPECS.png alt="Kali Linux desktop running inside VirtualBox" width="900"><br>
   <sub><b>Figure 4.</b> Kali Linux 2026.3 desktop after the first successful boot.</sub>
 </p>
 
